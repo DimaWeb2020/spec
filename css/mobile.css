@@ -1,24 +1,25 @@
-@media (max-width: 950px) {section h3 {color:red;} .left-img {clear: left;}
+@media (max-width: 900px) {
+  .col .left-img {clear: both;} /**эта опция не работает :( **/
+}
 
 @media (max-width: 800px){
-.menu-main {
-  float: none;
-  padding-top: 20px;
-}
-.top-menu {
-  text-align: center;
-  padding: 20px;
-}
-.menu-main a {padding: 10px;}
-.menu-main a:before {transform: rotate(45deg) translateX(-6px);}
-
-.col{
-display: block;
-width: 100%;
-margin: 10px 0;
-}
+  .menu-main {
+    float: none;
+    padding-top: 20px;
+  }
+  .top-menu {
+    text-align: center;
+    padding: 20px;
+  }
+  .menu-main a {padding: 10px;}
+  .menu-main a:before {transform: rotate(45deg) translateX(-6px);}
+  .col{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
 }
 
 @media (max-width: 500px) {
-.menu-main li {display: block;}
+  .menu-main li {display: block;}
 }

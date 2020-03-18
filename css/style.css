@@ -89,7 +89,63 @@ box-shadow: 3px 0 7px rgba(0,0,0,.3);
 
 section h3{font-size: 1em;}
 
+.menu-service {
+  list-style: none;
+  padding: 20px;
+}
+.menu-service button {
+  width: 200px;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgba(152, 255, 221,.4);
+}
+.menu-service button:hover {background-color: rgb(152, 255, 221);}
 
+
+.flat {
+  box-sizing: border-box;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid gray;
+  background: white;
+  font-family: 'Calibri';
+  transition: .3s ease-in;
+}
+.flat:hover {border-bottom: 2px solid #fc5a5a;}
+.flat img {
+  display: block;
+  width: 100%;
+}
+.flat-list {
+  background: #fafafa;
+  padding: 15px 0;
+}
+.flat-list h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: #cccccc;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.flat:hover .button {background: #fc5a5a;}
 
 /**
 
