@@ -1,0 +1,101 @@
+*{
+font-family: Arial;
+box-sizing: border-box;
+}
+
+h1, h2, h3, p {padding-left: 20px;}
+
+img{
+    padding: 10px;
+}
+
+.top-menu {
+  background: rgba(255,255,255,.5);
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  padding: 20px;
+}
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {display: inline-block;}
+
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.menu-main li {display: inline-block;}
+
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 75px;
+  padding-left: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: 'Calibri';
+  font-weight: bold;
+  color: navi;
+  transition:.3s linear;
+}
+
+.menu-main a:before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background: red;
+  position: absolute;
+  left: 50%;
+  transform: rotate(45deg) translateX(6px);
+  opacity: 0.1;
+  transition: .3s linear;
+}
+
+.menu-main a:hover:before {opacity: 1;}
+
+.container{
+    margin: 0 auto;
+}
+.cols{
+    display: table;
+    border-spacing: 5px;
+}
+.col p::first-letter{
+    color:red;
+    font-size: 1.8em;
+}
+.cols p{font-size: .8em;}
+
+.col{
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    display: table-cell;
+    width: 30%;
+    vertical-align: top;
+}
+
+.left-img {
+float: left;
+margin: 10px;
+box-shadow: 3px 0 7px rgba(0,0,0,.3);
+}
+
+section h3{font-size: 1em;}
+
+
+
+/**
+
+https://myrusakov.ru/css3-hover-effect.html
+
+https://html5book.ru/gorizontalnoe-menu/#part7
+
+
+**/
